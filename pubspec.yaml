@@ -23,6 +23,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  intl: ^0.16.1
+  imei_plugin: ^1.2.0
+  sqflite: ^2.0.0+3
+  path_provider: ^2.0.1
+  camera: ^0.8.0
+  path: ^1.8.0
+  geolocator: ^7.0.1
+  geolocator_platform_interface: ^2.0.0
+  plugin_platform_interface: ^2.0.0
+  ext_storage: ^1.0.3
 
 
   # The following adds the Cupertino Icons font to your application.

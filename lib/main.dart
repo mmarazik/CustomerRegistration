@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'screens/CustomersScreen.dart';
 import 'screens/CustomerRegistrationScreen.dart';
+import 'screens/TakePictureScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -34,16 +36,20 @@ class MyApp extends StatelessWidget {
             headline4: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.bold,
+              color: Color(0xFF001141),
             ),
             headline6: TextStyle(
               fontSize: 14,
               fontWeight: FontWeight.bold,
+              color: Color(0xFF001141),
             ),
             bodyText2: TextStyle(
               fontSize: 12,
+              color: Color(0xFF001141),
             ),
             bodyText1: TextStyle(
               fontSize: 12,
+              color: Color(0xFF001141),
             ),
           ),
           buttonTheme: ButtonTheme.of(context).copyWith(
@@ -55,7 +61,9 @@ class MyApp extends StatelessWidget {
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         routes: {
-          "/": (context) => CustomerRegistrationScreen('Customer Registration'),
+          "/": (context) => CustomerRegistrationScreen('My Customer'),
+          TakePictureScreen.routeName: (context) => TakePictureScreen(),
+          CustomersScreeen.routeName: (context) => CustomersScreeen(),
         });
   }
 }
