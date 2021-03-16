@@ -3,7 +3,7 @@ import 'package:intl/intl.dart';
 
 import '../model/customer.dart';
 import '../helpers/database_helper.dart';
-import '../widgets/ImageDialog.dart';
+import '../widgets/image_dialog.dart';
 
 class CustomersScreeen extends StatefulWidget {
   static final String routeName = "/allcustomers";

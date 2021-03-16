@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'screens/CustomersScreen.dart';
-import 'screens/CustomerRegistrationScreen.dart';
-import 'screens/TakePictureScreen.dart';
+import 'screens/customers_screen.dart';
+import 'screens/customer_registration_screen.dart';
+import 'screens/take_picture_screen.dart';
 
 void main() {
   runApp(MyApp());

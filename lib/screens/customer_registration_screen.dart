@@ -9,8 +9,8 @@ import 'package:geolocator/geolocator.dart';
 import 'package:ext_storage/ext_storage.dart';
 import 'package:path/path.dart' as p;
 
-import '../screens/CustomersScreen.dart';
-import '../screens/TakePictureScreen.dart';
+import 'customers_screen.dart';
+import 'take_picture_screen.dart';
 import '../helpers/database_helper.dart';
 
 class CustomerRegistrationScreen extends StatefulWidget {
